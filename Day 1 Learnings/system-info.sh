@@ -22,3 +22,5 @@ free -h
 echo
 echo "------ Top 5 Processes ------"
 ps -eo pid,user,%cpu,comm --sort=-%cpu | head -6
+
+
